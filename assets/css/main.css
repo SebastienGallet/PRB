@@ -4001,16 +4001,19 @@ input, select, textarea {
 	flex-direction: column;
 	align-items: center;
 }
-#main #effectif #academy{
+#main #effectif #academie{
 	grid-area: 2 / 3 / 2 / 5;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	list-style-type: none;
 }
 
 #main #effectif #pilotes ul{
+	list-style-type: none;
+}
+
+#main #effectif #academie ul{
 	list-style-type: none;
 }
 
