@@ -3148,8 +3148,8 @@ input, select, textarea {
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				color: #242943;
 				display: inline-block;
-				height: 52px;
-				width: 47px;
+				max-height: 52px;
+				max-width: 47px;
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
