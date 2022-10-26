@@ -3987,15 +3987,25 @@ input, select, textarea {
 #main #effectif #manager{
 	grid-area: 1 / 2 / 1 / 4;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
 }
 
 #main #effectif #pilotes{
 	grid-area: 2 / 1 / 2 / 3;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 #main #effectif #academy{
 	grid-area: 2 / 3 / 2 / 5;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	list-style-type: none;
 }
 
