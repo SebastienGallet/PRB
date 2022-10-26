@@ -3958,3 +3958,55 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+
+		/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+#main h2{
+	margin: 0;
+}
+
+#main #manager p{
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+#main #effectif {
+	display: grid; 
+	grid-template-columns: 25% 25% 25% 25%; 
+	grid-template-rows: 15% 85%; 
+	gap: 10px 10px; 
+	justify-items: center;
+}
+
+#main #effectif #manager{
+	grid-area: 1 / 2 / 1 / 4;
+	text-align: center;
+}
+
+#main #effectif #pilotes{
+	grid-area: 2 / 1 / 2 / 3;
+	text-align: center;
+}
+#main #effectif #academy{
+	grid-area: 2 / 3 / 2 / 5;
+	text-align: center;
+	list-style-type: none;
+}
+
+#main #effectif #pilotes ul{
+	list-style-type: none;
+}
+
+ul{
+	padding: 0;
+}
+
+p{
+	text-align: justify;
+}

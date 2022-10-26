@@ -5,6 +5,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+@import 'pages/pilotes.css';
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2080,7 +2081,7 @@ button.next:after,
   position: absolute;
   right: 1.5em;
   top: 0;
-  /*vertical-align: middle;*/
+  vertical-align: middle;
   width: 36px;
 }
 input[type=submit].next:before,
@@ -2472,7 +2473,7 @@ button:disabled,
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: #ffffff;
   color: #242943;
-  display: block;
+  display: inline-block;
   line-height: 1.65em;
   margin-right: 0.325em;
   padding: 0 0.125em 0 0.375em;
@@ -2552,8 +2553,6 @@ button:disabled,
   box-shadow: none;
   position: absolute;
 }
-
-
 #header.alt.style1 .logo strong {
   color: #6fc3df;
 }
@@ -3032,7 +3031,7 @@ body.is-preload #banner > .inner {
   text-align: right;
   text-indent: 8em;
   top: 0;
-  /*vertical-align: middle;*/
+  vertical-align: middle;
   white-space: nowrap;
   width: 8em;
 }
@@ -3078,3 +3077,4 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   visibility: visible;
 }/*# sourceMappingURL=main.css.map */
+
