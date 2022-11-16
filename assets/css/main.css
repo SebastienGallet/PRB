@@ -4039,9 +4039,34 @@ ul{
 p{
 	text-align: justify;
 }
+
 .orga{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	margin: 20px 0;
+}
+@media screen and (min-width:912px) {
+	.orgamobile{
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width:912px) {
+
+	.organigramme{
+		display: none;
+	}
+
+	.orgamobile{
+		display: flex;
+		max-height: 650px;
+		height: auto;
+		width: auto;
+		justify-content: center;
+		margin: 20px 0;
+
+	}
+	
 }
