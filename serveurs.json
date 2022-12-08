@@ -1,0 +1,32 @@
+[
+    {
+        "index":0,
+        "id": "Choisissez un serveur",
+        "link": ""
+    },
+
+    {
+        "index":1,
+        "id": "[Project Reborn - PRES Saison 2] 8H Kyalami - Debut Course (Early)",
+        "link": "http://188.165.197.22:51051/PerServerRankingLaps/Index/1492"
+    },
+
+    {
+        "index":2,
+        "id": "[Project Reborn - PRES Saison 2] 8H Kyalami - Pluie (Rain) V3",
+        "link": "http://188.165.197.22:51051/PerServerRankingLaps/Index/1480"
+    },
+
+    {   
+        "index":3,
+        "id": "[Project Reborn - PRES Saison 2] 8H Kyalami - Sec (Dry)",
+        "link": "http://188.165.197.22:51051/PerServerRankingLaps/Index/1483"
+    },
+
+    {   
+        "index":4,
+        "id": "[Project Reborn - PRES Saison 2] 8H Kyalami - Fin course (Late)",
+        "link": "http://188.165.197.22:51051/PerServerRankingLaps/Index/1479"
+    }
+
+]
