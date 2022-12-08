@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" >
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 		<script defer src="https://kit.fontawesome.com/7fdc441973.js" crossorigin="anonymous"></script>
+		<script type="module" src="tracker.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -37,7 +38,17 @@
 
 				<!-- Main -->
 					<div id="main" class="alt">
-						<iframe src="http://188.165.197.22:51051/PerServerRankingTracks/Index" frameborder="0" id="tracker"></iframe>
+						<div id="col-12">
+							<select name="choix-serveur" id="serveurs-list">
+								<!-- <option value>Choisissez un serveur</option> -->
+								<!-- <option value="1">[Project Reborn - PRES Saison 2] 8H Kyalami - Debut Course (Early)</option>
+								<option value="2">[Project Reborn - PRES Saison 2] 8H Kyalami - Sec (Dry)</option>
+								<option value="3">Server name: [Project Reborn - PRES Saison 2] 8H Kyalami - Pluie (Rain) V3</option>
+								<option value="4">[Project Reborn - PRES Saison 2] 8H Kyalami - Fin course (Late)</option> -->
+							</select>
+						</div>
+						<div id="serveur">
+						</div>
 					</div>
 
 				<!-- Contact -->
