@@ -21,10 +21,6 @@ if (oneServ === 0) {
 })
 
 
-
-
-
-
 choixDuServ.addEventListener('change',resetTracker);
 choixDuServ.addEventListener('change',afficherTracker);
 
