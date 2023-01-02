@@ -4118,3 +4118,16 @@ iframe{
 	margin-bottom: 20px;
 }
 
+#categorie-choice {
+	width: 95%;
+	display: flex;
+	margin: 0 auto;
+	
+}
+
+#chronos img{
+	margin: 20px auto;
+	width: 95%;
+	display: flex;
+	
+}
