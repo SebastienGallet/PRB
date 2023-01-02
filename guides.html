@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="fr">
 	<head>
-		<title>PRB - Tracker</title>
+		<title>Project Reborn</title>
 		<meta charset="utf-8" lang="fr">
 		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		<meta name="description" content="Project Reborn, team de pilotes et organisation d'événements sur Assetto Corsa Competizione. Rejoignez nous sur Discord !">
@@ -9,53 +9,50 @@
 		<link rel="stylesheet" href="assets/css/main.css" >
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
 		<script defer src="https://kit.fontawesome.com/7fdc441973.js" crossorigin="anonymous"></script>
-		<script type="module" src="tracker.js"></script>
 	</head>
 	<body class="is-preload">
 
 			<!-- Wrapper -->
 				<div id="wrapper">
 
-					<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo" aria-label="Retour menu"><img src="./images/logoprb.png" alt="Logo PRB"></a>
-						<nav>
-							<a href="#menu" aria-label="menu">Menu</a>
-						</nav>
-					</header>
+			<!-- Header -->
+			<header id="header" class="alt">
+				<a href="index.html" class="logo" aria-label="Retour menu"><img src="./images/logoprb.png" alt="Logo PRB"></a>
+				<nav>
+					<a href="#menu" aria-label="menu">Menu</a>
+				</nav>
+			</header>
 
-					<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html" aria-label="Accueil">Accueil</a></li>
-							<li><a href="events.html" aria-label="Evénements">Événements</a></li>
-							<li><a href="pilotes.html" aria-label="Acedemy">Pilotes & Académies</a></li>
-							<li><a href="partenaires.html" aria-label="partenaires">Partenaires</a></li>
-							<li><a href="guides.html" aria-label="guides">Guide du débutant ACC</a></li>
-							<li><a href="mailto:contact@project-reborn.net" aria-label="contact">Contact</a></li>
-						</ul>
-					</nav>
+			<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html" aria-label="Accueil">Accueil</a></li>
+						<li><a href="events.html" aria-label="Evénements">Événements</a></li>
+						<li><a href="pilotes.html" aria-label="Acedemy">Pilotes & Académies</a></li>
+						<li><a href="partenaires.html" aria-label="partenaires">Partenaires</a></li>
+						<li><a href="guides.html" aria-label="guides">Guide du débutant ACC</a></li>
+						<li><a href="mailto:contact@project-reborn.net" aria-label="contact">Contact</a></li>
+					</ul>
+				</nav>
+
 
 
 				<!-- Main -->
-					<div id="main" class="alt">
-						<div id="col-12">
-							<select name="choix-serveur" id="serveurs-list">
-								<!-- <option value>Choisissez un serveur</option> -->
-								<!-- <option value="1">[Project Reborn - PRES Saison 2] 8H Kyalami - Debut Course (Early)</option>
-								<option value="2">[Project Reborn - PRES Saison 2] 8H Kyalami - Sec (Dry)</option>
-								<option value="3">Server name: [Project Reborn - PRES Saison 2] 8H Kyalami - Pluie (Rain) V3</option>
-								<option value="4">[Project Reborn - PRES Saison 2] 8H Kyalami - Fin course (Late)</option> -->
-							</select>
+					<div id="main">
+						<div class="one" id="guide-choice">	
+							<a href="#" class="button fit" id="button-gdd">Guide du débutant</a>
+							<a href="#" class="button primary fit" id="button-ecu">Guide ECU MAP</a>
 						</div>
-						<div id="serveur">
-						</div>
-					</div>
 
-				<!-- Contact -->
-				<div id="contact">
-					<a href="mailto:contact@project-reborn.net" class="button primary fit" aria-label="contact">Nous contacter</a>
-				</div>
+                        <div class="two" id="guides">
+                            <iframe src="./guides/Guide du débutant sur ACC_compressed.pdf" id="gdd" alt="Désolé, votre appareil ne peut pas afficher ce PDF.Vous pouvez le télécharger et l'ouvrir avec un lecteur de PDF sur votre ordinateur."></iframe>
+                            <iframe src="./guides/ECU MAP - Version FR 2022_compressed.pdf" id="ecumap" alt="Désolé, votre appareil ne peut pas afficher ce PDF.Vous pouvez le télécharger et l'ouvrir avec un lecteur de PDF sur votre ordinateur."></iframe>
+                        </div>
+
+					<!-- Contact -->
+					<div id="contact">
+						<a href="mailto:contact@project-reborn.net" class="button primary fit" aria-label="contact">Nous contacter</a>
+					</div>
 	
 				<!-- Footer -->
 					<footer id="footer">
@@ -68,7 +65,7 @@
 						</div>
 					</footer>
 
-		</div>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -78,14 +75,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="js/guides.js"></script>
 			<!-- Google tag (gtag.js) -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=G-9XX98C3PEJ"></script>
-			<!-- <script>
+			<script>
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 
 				gtag('config', 'G-9XX98C3PEJ');
-			</script> -->
+			</script>
+
 	</body>
 </html>
+
