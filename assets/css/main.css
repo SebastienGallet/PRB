@@ -4078,6 +4078,11 @@ p{
 		margin: 20px 0;
 
 	}
+
+	#button-ecu, #button-gdd{
+		width: 50%;
+		font-size: 0.7rem;
+	}
 	
 }
 
@@ -4098,7 +4103,7 @@ iframe{
 /*------------------------------------------GUIDE-------------------------------------------*/
 #guide-choice{
 	display: flex;
-	margin: 20px 20px;
+	margin: 20px 0px;
 }
 
 #gdd {
