@@ -22,7 +22,7 @@ const infocontent = `<div class="info-tableau">
 
 document.querySelector('#chronos').innerHTML = infocontent
 
-$("#demo-category").change(function() {
+$("#categorie-list").change(function() {
     var selectedValue = $(this).val();
     switch (selectedValue) {
       case "Choix catégorie":
