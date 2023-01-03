@@ -22,26 +22,31 @@ const infocontent = `<div class="info-tableau">
 
 document.querySelector('#chronos').innerHTML = infocontent
 
-$("#categorie-list").change(function() {
-    var selectedValue = $(this).val();
-    switch (selectedValue) {
-      case "Choix catégorie":
-        $("#chronos").html(infocontent);
-        break;
-      case "GT3":
-        $("#chronos").html("<img src='./images/chronos/gt3.webp' class='lbcar' alt='GT3'>");
-        break;
-      case "GT4":
-        $("#chronos").html("<img src='./images/chronos/gt4.webp' class='lbcar' alt='GT4'>");
-        break;
-      case "Porsche Cup":
-        $("#chronos").html("<img src='./images/chronos/pcup.webp' class='lbcar' alt='Porsche Cup'>");
-        break;
-        case "BMW M2":
-        $("#chronos").html("<img src='./images/chronos/m2.webp' class='lbcar' alt='BMW M2'>");
-        break;
-        case "Lamborghini Super Troféo 2":
-        $("#chronos").html("<img src='./images/chronos/st2.webp' class='lbcar' alt='Lamborghini Super Troféo 2'>");
-        break;
-    }
-  });
+$(".categorie-list, .categorie-list2").change(function() {
+  var selectedValue = $(this).val();
+  switch (selectedValue) {
+    case "Choix catégorie":
+      $("#chronos").html(infocontent);
+      break;
+    case "GT3":
+      $("#chronos").html("<img src='./images/chronos/gt3.webp' class='lbcar' alt='GT3'>");
+      break;
+    case "GT4":
+      $("#chronos").html("<img src='./images/chronos/gt4.webp' class='lbcar' alt='GT4'>");
+      break;
+    case "Porsche Cup":
+      $("#chronos").html("<img src='./images/chronos/pcup.webp' class='lbcar' alt='Porsche Cup'>");
+      break;
+      case "BMW M2":
+      $("#chronos").html("<img src='./images/chronos/m2.webp' class='lbcar' alt='BMW M2'>");
+      break;
+      case "Lamborghini Super Troféo 2":
+      $("#chronos").html("<img src='./images/chronos/st2.webp' class='lbcar' alt='Lamborghini Super Troféo 2'>");
+      break;
+  }
+  // Mettre à jour l'autre sélecteur avec la valeur sélectionnée
+  $(".categorie-list, .categorie-list2").not(this).val(selectedValue);
+});
+
+  
+
