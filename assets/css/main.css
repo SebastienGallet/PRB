@@ -1775,9 +1775,8 @@ input, select, textarea {
 
 	header.major {
 		width: -moz-max-content;
-		width: -webkit-max-content;
 		width: -ms-max-content;
-		width: max-content;
+
 		margin-bottom: 1em;
 	}
 
@@ -3629,7 +3628,7 @@ input, select, textarea {
 			}
 
 			#main > * > .inner {
-				padding: 4em 0 2em 0 ;
+				padding: 2em 0 2em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
@@ -4120,9 +4119,7 @@ iframe{
 	display: none;
 }
 
-#guides{
-	margin-bottom: 20px;
-}
+
 
 .categorie-choice {
 	width: 95%;
@@ -4180,4 +4177,8 @@ iframe{
 .infoguide{
 	margin: 0 5px 20px 5px;
 	padding-top: 20px;
+}
+
+.gosetup{
+	padding: 50px;
 }
