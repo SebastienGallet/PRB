@@ -4131,3 +4131,12 @@ iframe{
 	display: flex;
 	
 }
+
+.lbcar{
+	max-width: 1590px;
+	max-height: 1522px;
+}
+
+.bold{
+	font-weight: bold;
+}
