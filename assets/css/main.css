@@ -4140,3 +4140,9 @@ iframe{
 .bold{
 	font-weight: bold;
 }
+
+.info-tableau{
+	width: 95%;
+	margin: auto;
+
+}
