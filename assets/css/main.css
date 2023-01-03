@@ -4083,6 +4083,12 @@ p{
 		width: 50%;
 		font-size: 0.7rem;
 	}
+
+	#categorie-list {
+		height: 65px;
+		font-size: 20px;
+		font-weight: bold
+	}
 	
 }
 
@@ -4121,7 +4127,7 @@ iframe{
 #categorie-choice {
 	width: 95%;
 	display: flex;
-	margin: 0 auto;
+	margin: 20px auto;
 	
 }
 
@@ -4145,4 +4151,20 @@ iframe{
 	width: 95%;
 	margin: 20px auto;
 
+}
+
+#categorie-list {
+	height: 65px;
+	font-size: 25px;
+	font-weight: bold
+}
+
+@media screen and (max-width:550px) {
+
+	#categorie-list {
+		height: 65px;
+		font-size: 20px;
+		font-weight: bold
+	}
+	
 }
