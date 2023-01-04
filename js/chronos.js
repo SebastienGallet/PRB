@@ -13,7 +13,7 @@ const infocontent = `<div class="info-tableau">
     De cette façon nous obtenons un temps plus réaliste grâce à plusieurs facteurs :
     - une piste fixe en température 21/28° permettant d'avoir une comparaison possible entre les voitures !
     - une référence de température fixe pour mesurer la différence de temps envisageable en fonction des températures de votre course !
-    - nous ne prenons plus 1 seul temps scratch avec la meilleure voiture du moment, mais la moyenne de 13 GT3, le temps sont donc plus représentatifs !
+    - nous ne prenons plus 1 seul temps scratch avec la meilleure voiture du moment, mais la moyenne de 12 GT3, le temps sont donc plus représentatifs !
   </p>	
   <p>L'objectif de ces tableaux n'ayant jamais été de vous proposer la référence des meilleurs temps au monde mais plutôt un indicateur pour vous jauger, nous estimons vous proposer des outils de bien meilleur qualité grâce à notre partenariat avec GO SETUP aujourd'hui !
   </p>
