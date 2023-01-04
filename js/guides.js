@@ -11,3 +11,11 @@ document.getElementById('button-gdd').addEventListener('click', function() {
     document.getElementById('gdd').style.display = 'none';
     document.getElementById('ecumap').style.display = 'block';
   });
+  
+const iframe = document.getElementById('gdd');
+  iframe.addEventListener('load', function() {
+    
+    const iframeContent = iframe.contentWindow.document.body;
+    const iframeHeight = iframeContent.scrollHeight + 'px';
+    iframe.style.height = iframeHeight;
+  });
