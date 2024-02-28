@@ -4187,11 +4187,12 @@ iframe {
 
 #gdd {
   display: block;
+  max-height: 2000px;
 }
 
 #ecumap {
   display: none;
-  height: 3000px;
+  max-height: 2000px;
 }
 
 .categorie-choice {
